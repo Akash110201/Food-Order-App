@@ -33,7 +33,7 @@ const Body = () => {
   if (onlineStatus === false)
     return (
       <h1>
-        Ayy babua internet band hai tumra!!, dekhna hai toh internet chalu kar
+        You are offline, please check your internet connection
       </h1>
     );
 

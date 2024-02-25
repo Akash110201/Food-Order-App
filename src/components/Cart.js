@@ -21,7 +21,7 @@ const Cart = () => {
           Clear Cart
         </button>
         {cartItems.length === 0 && (
-          <h1>Khali hai, kuch nikalne ke liye kuch dalna padta hai</h1>
+          <h1>The Cart is empty, hungry? add more food!!</h1>
         )}
         <ItemList items={cartItems} />
       </div>
